@@ -1,0 +1,47 @@
+{
+  "name": "betta-guard-bot",
+  "version": "1.0.0",
+  "description": "Gelişmiş Telegram grup yönetim botu - Reputation, Level, Daily Rewards, Achievements ve daha fazlası",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "watch": "tsc --watch",
+    "setup": "ts-node src/setup-bot.ts"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "telegram-bot",
+    "group-management",
+    "typescript",
+    "telegraf",
+    "reputation",
+    "level-system",
+    "achievements",
+    "daily-rewards"
+  ],
+  "author": "Mehmet Ali Kızıloğlu <mehmetalikizoglu188@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mehmetkzlldev/TelegramBotGroup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mehmetkzlldev/TelegramBotGroup/issues"
+  },
+  "homepage": "https://github.com/mehmetkzlldev/TelegramBotGroup#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "telegraf": "^4.15.3",
+    "sql.js": "^1.10.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@types/sql.js": "^1.4.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
+
